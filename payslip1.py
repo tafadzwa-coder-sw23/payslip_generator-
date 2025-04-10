@@ -25,11 +25,11 @@ LOG_FILE = "payslip_generator.log"
 logging.basicConfig(filename=LOG_FILE, level=logging.ERROR,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Email configuration (using hardcoded credentials - ASSUMING THIS IS A GENERATED APP PASSWORD)
-SMTP_SERVER = "smtp.gmail.com"
-SMTP_PORT = 587
-SENDER_EMAIL = "swutch23@gmail.com"
-SENDER_PASSWORD = "cidsktpjltknjkrc"  # Assuming this is a GENERATED GMAIL APP PASSWORD
+# Email configuration (using environment variables)
+SMTP_SERVER = os.getenv('SMTP_SERVER', 'smtp.gmail.com')
+SMTP_PORT = int(os.getenv('SMTP_PORT', 587))
+SENDER_EMAIL = os.getenv('SENDER_EMAIL')
+SENDER_PASSWORD = os.getenv('SENDER_PASSWORD')
 
 
 class PayslipGenerator:
@@ -139,12 +139,6 @@ class PayslipGenerator:
     def send_email(self, recipient_email: str, payslip_path: Path) -> bool:
         """Send payslip via email."""
         try:
-            server = smtplib.SMTP(SMTP_SERVER, SMTP_PORT)
-            server.ehlo()  # Identify ourselves to the server
-            server.starttls()  # Secure the connection
-            server.ehlo()  # Re-identify after TLS handshake
-            server.login(SENDER_EMAIL, SENDER_PASSWORD)
-
             # Create message
             msg = MIMEMultipart()
             msg['From'] = SENDER_EMAIL
@@ -168,23 +162,17 @@ Uncommon.org HR Department
                                 filename=f"payslip_{payslip_path.stem}.pdf")
                 msg.attach(attach)
 
-            server.send_message(msg)
-            server.quit()
+            # Send email
+            with smtplib.SMTP(SMTP_SERVER, SMTP_PORT) as server:
+                server.starttls()
+                server.login(SENDER_EMAIL, SENDER_PASSWORD)
+                server.send_message(msg)
+
             print(f"Email sent successfully to {recipient_email}")
             return True
 
-        except smtplib.SMTPConnectError as e:
-            error_message = f"SMTP connection error sending email to {recipient_email}: {e}"
-            logging.error(error_message)
-            print(error_message)
-            return False
-        except smtplib.SMTPAuthenticationError as e:
-            error_message = f"SMTP authentication error sending email to {recipient_email}: {e}"
-            logging.error(error_message)
-            print(error_message)
-            return False
-        except smtplib.SMTPException as e:
-            error_message = f"SMTP error sending email to {recipient_email}: {e}"
+        except smtplib.SMTPException as smtp_error:
+            error_message = f"SMTP error sending email to {recipient_email}: {smtp_error}"
             logging.error(error_message)
             print(error_message)
             return False
@@ -225,6 +213,7 @@ Uncommon.org HR Department
 
 
 if __name__ == "__main__":
+    # Create and run the payslip generator
     generator = PayslipGenerator('employees.xlsx', currency_symbol="$")
 
     if generator.process_all():

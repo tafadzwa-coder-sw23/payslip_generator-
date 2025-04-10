@@ -1,0 +1,106 @@
+2025-04-09 10:34:50,745 - ERROR - Missing required columns: {'Allowances'}
+2025-04-09 10:34:50,773 - ERROR - Error processing employee Ben Sithole : 'Allowances'
+2025-04-09 10:34:50,777 - ERROR - Error processing employee Ernest Maenda: 'Allowances'
+2025-04-09 10:34:50,784 - ERROR - Error processing employee Maria Muzunze: 'Allowances'
+2025-04-09 10:41:36,949 - ERROR - Missing required columns: {'Allowances'}
+2025-04-09 10:41:36,952 - ERROR - Error processing employee Ben Sithole : 'Allowances'
+2025-04-09 10:41:36,954 - ERROR - Error processing employee Ernest Maenda: 'Allowances'
+2025-04-09 10:41:36,958 - ERROR - Error processing employee Maria Muzunze: 'Allowances'
+2025-04-09 10:45:41,234 - ERROR - Missing required columns: {'Allowances'}
+2025-04-09 10:45:41,239 - ERROR - Error processing employee Ben Sithole : 'Allowances'
+2025-04-09 10:45:41,243 - ERROR - Error processing employee Ernest Maenda: 'Allowances'
+2025-04-09 10:45:41,246 - ERROR - Error processing employee Maria Muzunze: 'Allowances'
+2025-04-09 10:50:06,140 - ERROR - Missing required columns: {'Allowances'}
+2025-04-09 10:50:06,143 - ERROR - Error processing employee Ben Sithole : 'Allowances'
+2025-04-09 10:50:06,156 - ERROR - Error processing employee Ernest Maenda: 'Allowances'
+2025-04-09 10:50:06,166 - ERROR - Error processing employee Maria Muzunze: 'Allowances'
+2025-04-09 10:50:18,130 - ERROR - Missing required columns: {'Allowances'}
+2025-04-09 10:50:18,139 - ERROR - Error processing employee Ben Sithole : 'Allowances'
+2025-04-09 10:50:18,143 - ERROR - Error processing employee Ernest Maenda: 'Allowances'
+2025-04-09 10:50:18,156 - ERROR - Error processing employee Maria Muzunze: 'Allowances'
+2025-04-09 10:50:47,527 - ERROR - Missing required columns: {'Allowances'}
+2025-04-09 10:50:47,531 - ERROR - Error processing employee Ben Sithole : 'Allowances'
+2025-04-09 10:50:47,535 - ERROR - Error processing employee Ernest Maenda: 'Allowances'
+2025-04-09 10:50:47,537 - ERROR - Error processing employee Maria Muzunze: 'Allowances'
+2025-04-09 10:52:48,256 - ERROR - Missing required columns: {'Allowances'}
+2025-04-09 10:52:48,262 - ERROR - Error processing employee Ben Sithole : 'Allowances'
+2025-04-09 10:52:48,270 - ERROR - Error processing employee Ernest Maenda: 'Allowances'
+2025-04-09 10:52:48,285 - ERROR - Error processing employee Maria Muzunze: 'Allowances'
+2025-04-09 10:54:20,325 - ERROR - Missing required columns: {'Allowances'}
+2025-04-09 10:54:20,328 - ERROR - Error processing employee Ben Sithole : 'Allowances'
+2025-04-09 10:54:20,330 - ERROR - Error processing employee Ernest Maenda: 'Allowances'
+2025-04-09 10:54:20,333 - ERROR - Error processing employee Maria Muzunze: 'Allowances'
+2025-04-09 10:57:18,418 - ERROR - Missing required columns: {'Allowances'}
+2025-04-09 10:57:18,421 - ERROR - Error processing employee Ben Sithole : 'Allowances'
+2025-04-09 10:57:18,423 - ERROR - Error processing employee Ernest Maenda: 'Allowances'
+2025-04-09 10:57:18,425 - ERROR - Error processing employee Maria Muzunze: 'Allowances'
+2025-04-09 10:57:32,132 - ERROR - Missing required columns: {'Allowances'}
+2025-04-09 10:57:32,145 - ERROR - Error processing employee Ben Sithole : 'Allowances'
+2025-04-09 10:57:32,150 - ERROR - Error processing employee Ernest Maenda: 'Allowances'
+2025-04-09 10:57:32,155 - ERROR - Error processing employee Maria Muzunze: 'Allowances'
+2025-04-09 10:59:49,031 - ERROR - SMTP error sending email to swutch23@gmail.com: (334, b'UGFzc3dvcmQ6')
+2025-04-09 10:59:51,362 - ERROR - SMTP error sending email to ernesttafadzwamaenda@gmail.com: (334, b'UGFzc3dvcmQ6')
+2025-04-09 10:59:53,760 - ERROR - SMTP error sending email to swutch23@gmail.com: (334, b'UGFzc3dvcmQ6')
+2025-04-09 12:54:50,487 - ERROR - SMTP error sending email to swutch23@gmail.com: please run connect() first
+2025-04-09 12:54:50,511 - ERROR - SMTP error sending email to ernesttafadzwamaenda@gmail.com: please run connect() first
+2025-04-09 12:54:50,538 - ERROR - SMTP error sending email to swutch23@gmail.com: please run connect() first
+2025-04-09 12:57:12,211 - ERROR - SMTP error sending email to swutch23@gmail.com: please run connect() first
+2025-04-09 12:57:12,240 - ERROR - SMTP error sending email to ernesttafadzwamaenda@gmail.com: please run connect() first
+2025-04-09 12:57:12,265 - ERROR - SMTP error sending email to swutch23@gmail.com: please run connect() first
+2025-04-09 13:03:19,565 - ERROR - SMTP error sending email to swutch23@gmail.com: please run connect() first
+2025-04-09 13:03:19,594 - ERROR - SMTP error sending email to ernesttafadzwamaenda@gmail.com: please run connect() first
+2025-04-09 13:03:19,622 - ERROR - SMTP error sending email to swutch23@gmail.com: please run connect() first
+2025-04-09 13:08:12,125 - ERROR - SMTP error sending email to swutch23@gmail.com: please run connect() first
+2025-04-09 13:08:12,165 - ERROR - SMTP error sending email to ernesttafadzwamaenda@gmail.com: please run connect() first
+2025-04-09 13:08:12,174 - ERROR - SMTP error sending email to swutch23@gmail.com: please run connect() first
+2025-04-09 13:13:53,349 - ERROR - SMTP authentication error sending email to swutch23@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-39d89376f39sm1321784f8f.21 - gsmtp')
+2025-04-09 13:13:55,606 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-39d893f0bbcsm1301786f8f.80 - gsmtp')
+2025-04-09 13:13:57,839 - ERROR - SMTP authentication error sending email to swutch23@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-39d89389ed6sm1312647f8f.41 - gsmtp')
+2025-04-09 13:26:54,286 - ERROR - SMTP authentication error sending email to swutch23@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-39d893fdf8fsm1347435f8f.91 - gsmtp')
+2025-04-09 13:26:56,850 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-39d89361186sm1380849f8f.14 - gsmtp')
+2025-04-09 13:26:59,605 - ERROR - SMTP authentication error sending email to swutch23@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-39d893f0b82sm1358392f8f.66 - gsmtp')
+2025-04-09 13:32:25,245 - ERROR - SMTP authentication error sending email to swutch23@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-acaa1cb42casm80363566b.88 - gsmtp')
+2025-04-09 13:32:28,088 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-5f2fbc2e8bfsm648746a12.34 - gsmtp')
+2025-04-09 13:32:30,411 - ERROR - SMTP authentication error sending email to swutch23@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-5f2fbd208easm660211a12.59 - gsmtp')
+2025-04-09 13:32:36,393 - ERROR - SMTP authentication error sending email to swutch23@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-acaa1ce842esm80239166b.185 - gsmtp')
+2025-04-09 13:32:38,796 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-acaa1be8d19sm81680766b.45 - gsmtp')
+2025-04-09 13:32:41,177 - ERROR - SMTP authentication error sending email to swutch23@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-acaa1bb3508sm82578766b.8 - gsmtp')
+2025-04-09 14:14:44,776 - ERROR - SMTP authentication error sending email to swutch23@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-acaa1be9145sm88699566b.50 - gsmtp')
+2025-04-09 14:14:47,315 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-5f2fbc08379sm704197a12.21 - gsmtp')
+2025-04-09 14:14:49,618 - ERROR - SMTP authentication error sending email to swutch23@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-acaa1c01e31sm87679366b.85 - gsmtp')
+2025-04-09 14:37:44,759 - ERROR - SMTP authentication error sending email to swutch23@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-39d893f0b14sm1535486f8f.65 - gsmtp')
+2025-04-09 14:37:47,476 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-43f205ecc73sm19045025e9.8 - gsmtp')
+2025-04-09 14:37:50,205 - ERROR - SMTP authentication error sending email to swutch23@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-43f23158849sm15750745e9.0 - gsmtp')
+2025-04-09 14:46:36,721 - ERROR - SMTP authentication error sending email to swutch23@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-43f207c90a9sm18913385e9.36 - gsmtp')
+2025-04-09 14:46:39,097 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-43f23572c43sm15633725e9.25 - gsmtp')
+2025-04-09 14:46:41,531 - ERROR - SMTP authentication error sending email to swutch23@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-43f235a5b08sm15525995e9.33 - gsmtp')
+2025-04-09 14:52:40,832 - ERROR - SMTP authentication error sending email to swutch23@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-39d893773a0sm1563857f8f.25 - gsmtp')
+2025-04-09 14:52:43,499 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-43f20626c19sm19666455e9.15 - gsmtp')
+2025-04-09 14:52:45,974 - ERROR - SMTP authentication error sending email to swutch23@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-39d8938a860sm1593552f8f.54 - gsmtp')
+2025-04-09 14:53:30,735 - ERROR - SMTP authentication error sending email to swutch23@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-39d893f0b14sm1572220f8f.65 - gsmtp')
+2025-04-09 14:53:32,926 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-43f2338d7cdsm16256925e9.8 - gsmtp')
+2025-04-09 14:53:35,146 - ERROR - SMTP authentication error sending email to swutch23@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-43f207cb88asm18913245e9.37 - gsmtp')
+2025-04-10 08:52:37,802 - ERROR - SMTP authentication error sending email to swutch23@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-acaa1ce7f7dsm213768966b.180 - gsmtp')
+2025-04-10 08:52:40,362 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-acaa1ccd1c4sm217404366b.148 - gsmtp')
+2025-04-10 08:52:42,501 - ERROR - SMTP authentication error sending email to swutch23@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-acaa1c02549sm215741466b.80 - gsmtp')
+2025-04-10 08:52:47,100 - ERROR - SMTP authentication error sending email to swutch23@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-5f2fb911537sm1755721a12.0 - gsmtp')
+2025-04-10 08:52:49,813 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-acaa1cb404asm215899966b.87 - gsmtp')
+2025-04-10 08:52:52,666 - ERROR - SMTP authentication error sending email to swutch23@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-acaa1ccc0desm212669566b.124 - gsmtp')
+2025-04-10 08:58:55,325 - ERROR - SMTP authentication error sending email to ernestmaenda@yahoo.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-5f2fbc2e1d5sm1810958a12.44 - gsmtp')
+2025-04-10 08:58:58,242 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-acaa1bee20asm214740666b.73 - gsmtp')
+2025-04-10 08:59:01,055 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-acaa1cb4373sm219330966b.92 - gsmtp')
+2025-04-10 09:05:28,964 - ERROR - SMTP authentication error sending email to ernestmaenda@yahoo.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-5f2fbbac93bsm1849855a12.7 - gsmtp')
+2025-04-10 09:05:31,232 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-acaa1cb41besm216992966b.118 - gsmtp')
+2025-04-10 09:05:33,561 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-acaa1be87d5sm219068166b.51 - gsmtp')
+2025-04-10 09:12:14,496 - ERROR - SMTP authentication error sending email to ernestmaenda@yahoo.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-5f2fbd17734sm1839982a12.54 - gsmtp')
+2025-04-10 09:12:18,902 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-5f2fbbabf86sm1850235a12.1 - gsmtp')
+2025-04-10 09:12:24,085 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-acaa1ce6fd9sm215251466b.161 - gsmtp')
+2025-04-10 09:33:04,519 - ERROR - SMTP authentication error sending email to ernestmaenda@yahoo.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-39d893904d1sm3982351f8f.60 - gsmtp')
+2025-04-10 09:33:09,726 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-43f208fefc0sm23022735e9.0 - gsmtp')
+2025-04-10 09:33:38,873 - ERROR - SMTP error sending email to ernesttafadzwamaenda@gmail.com: Connection unexpectedly closed
+2025-04-10 09:36:16,823 - ERROR - SMTP authentication error sending email to ernestmaenda@yahoo.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-39d893fdfbesm3831282f8f.88 - gsmtp')
+2025-04-10 09:36:19,759 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda284@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-43f208e96dasm33082815e9.0 - gsmtp')
+2025-04-10 09:36:22,761 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda284@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-39d8938a67bsm3851656f8f.46 - gsmtp')
+2025-04-10 09:36:31,661 - ERROR - SMTP authentication error sending email to ernestmaenda@yahoo.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-39d893631b5sm3845135f8f.3 - gsmtp')
+2025-04-10 09:36:35,812 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda284@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-43f205ecb20sm45487645e9.3 - gsmtp')
+2025-04-10 09:36:40,042 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda284@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-43f233a2c46sm41543025e9.13 - gsmtp')

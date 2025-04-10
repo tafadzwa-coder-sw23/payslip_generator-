@@ -25,11 +25,11 @@ LOG_FILE = "payslip_generator.log"
 logging.basicConfig(filename=LOG_FILE, level=logging.ERROR,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Email configuration (using hardcoded credentials - ASSUMING THIS IS A GENERATED APP PASSWORD)
+# Email configuration (using environment variables)
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 SENDER_EMAIL = "swutch23@gmail.com"
-SENDER_PASSWORD = "cidsktpjltknjkrc"  # Assuming this is a GENERATED GMAIL APP PASSWORD
+SENDER_PASSWORD = "YOUR_GENERATED_APP_PASSWORD"  # IMPORTANT: REPLACE WITH YOUR GMAIL APP PASSWORD
 
 
 class PayslipGenerator:
@@ -225,6 +225,12 @@ Uncommon.org HR Department
 
 
 if __name__ == "__main__":
+    # Email configuration for Gmail
+    os.environ['SMTP_SERVER'] = 'smtp.gmail.com'
+    os.environ['SMTP_PORT'] = '587'
+    os.environ['SENDER_EMAIL'] = 'swutch23@gmail.com'
+    os.environ['SENDER_PASSWORD'] = "123vikings" # *** IMPORTANT: REPLACE THIS PLACEHOLDER ***
+
     generator = PayslipGenerator('employees.xlsx', currency_symbol="$")
 
     if generator.process_all():
