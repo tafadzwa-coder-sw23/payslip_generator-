@@ -104,3 +104,18 @@
 2025-04-10 09:36:31,661 - ERROR - SMTP authentication error sending email to ernestmaenda@yahoo.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-39d893631b5sm3845135f8f.3 - gsmtp')
 2025-04-10 09:36:35,812 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda284@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-43f205ecb20sm45487645e9.3 - gsmtp')
 2025-04-10 09:36:40,042 - ERROR - SMTP authentication error sending email to ernesttafadzwamaenda284@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-43f233a2c46sm41543025e9.13 - gsmtp')
+2025-04-10 12:15:53,242 - ERROR - SMTP error sending email to wayne@uncommon.org: (334, b'UGFzc3dvcmQ6')
+2025-04-10 12:15:56,130 - ERROR - SMTP error sending email to ernesttafadzwamaenda284@gmail.com: (334, b'UGFzc3dvcmQ6')
+2025-04-10 12:15:58,628 - ERROR - SMTP error sending email to ernesttafadzwamaenda284@gmail.com: (334, b'UGFzc3dvcmQ6')
+2025-04-10 12:23:29,745 - ERROR - Failed to send email to wayne@uncommon.org: name 'SMTP_SERVER' is not defined
+2025-04-10 12:23:29,752 - ERROR - Failed to send email to ernesttafadzwamaenda284@gmail.com: name 'SMTP_SERVER' is not defined
+2025-04-10 12:23:29,761 - ERROR - Failed to send email to ernesttafadzwamaenda284@gmail.com: name 'SMTP_SERVER' is not defined
+2025-04-10 12:25:30,727 - ERROR - Failed to send email to wayne@uncommon.org: name 'SMTP_SERVER' is not defined
+2025-04-10 12:25:30,731 - ERROR - Failed to send email to ernesttafadzwamaenda284@gmail.com: name 'SMTP_SERVER' is not defined
+2025-04-10 12:25:30,740 - ERROR - Failed to send email to ernesttafadzwamaenda284@gmail.com: name 'SMTP_SERVER' is not defined
+2025-04-10 12:26:27,295 - ERROR - Failed to send email to wayne@uncommon.org: name 'SMTP_SERVER' is not defined
+2025-04-10 12:26:27,311 - ERROR - Failed to send email to ernesttafadzwamaenda284@gmail.com: name 'SMTP_SERVER' is not defined
+2025-04-10 12:26:27,319 - ERROR - Failed to send email to ernesttafadzwamaenda284@gmail.com: name 'SMTP_SERVER' is not defined
+2025-04-10 12:31:42,723 - ERROR - Failed to send email to wayne@uncommon.org: name 'SMTP_SERVER' is not defined
+2025-04-10 12:31:42,728 - ERROR - Failed to send email to ernesttafadzwamaenda284@gmail.com: name 'SMTP_SERVER' is not defined
+2025-04-10 12:31:42,731 - ERROR - Failed to send email to ernesttafadzwamaenda284@gmail.com: name 'SMTP_SERVER' is not defined
