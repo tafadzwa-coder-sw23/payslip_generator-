@@ -5,7 +5,7 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
-import os
+import os  # Import is correct
 from dotenv import load_dotenv
 import logging
 import warnings
@@ -25,11 +25,11 @@ LOG_FILE = "payslip_generator.log"
 logging.basicConfig(filename=LOG_FILE, level=logging.ERROR,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Email configuration (using hardcoded credentials - ASSUMING THIS IS A GENERATED APP PASSWORD)
-SMTP_SERVER = "smtp.gmail.com"
-SMTP_PORT = 587
-SENDER_EMAIL = "swutch23@gmail.com"
-SENDER_PASSWORD = "cidsktpjltknjkrc"  # Assuming this is a GENERATED GMAIL APP PASSWORD
+# Email configuration loaded from .env
+SMTP_SERVER = os.getenv("SMTP_SERVER")
+SMTP_PORT = int(os.getenv("SMTP_PORT")) if os.getenv("SMTP_PORT") else 587
+SENDER_EMAIL = os.getenv("SENDER_EMAIL")
+SENDER_PASSWORD = os.getenv("SENDER_PASSWORD")
 
 
 class PayslipGenerator:
@@ -139,6 +139,11 @@ class PayslipGenerator:
     def send_email(self, recipient_email: str, payslip_path: Path) -> bool:
         """Send payslip via email."""
         try:
+            if not SMTP_SERVER or not SMTP_PORT or not SENDER_EMAIL or not SENDER_PASSWORD:
+                print("Error: Email configuration not fully set in .env file.")
+                logging.error("Email configuration not fully set in .env file.")
+                return False
+
             server = smtplib.SMTP(SMTP_SERVER, SMTP_PORT)
             server.ehlo()  # Identify ourselves to the server
             server.starttls()  # Secure the connection
@@ -165,7 +170,7 @@ Uncommon.org HR Department
             with open(payslip_path, 'rb') as f:
                 attach = MIMEApplication(f.read(), _subtype="pdf")
                 attach.add_header('Content-Disposition', 'attachment',
-                                filename=f"payslip_{payslip_path.stem}.pdf")
+                                   filename=f"payslip_{payslip_path.stem}.pdf")
                 msg.attach(attach)
 
             server.send_message(msg)
